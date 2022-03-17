@@ -1,11 +1,11 @@
 variable "prefix" {
   description = "Prefix used for all the resources created"
-  value       = "valtix"
+  default     = "valtix"
 }
 
 variable "project_id" {
   description = "Project Id"
-  value       = ""
+  default     = ""
 }
 
 variable "region" {
