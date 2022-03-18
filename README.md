@@ -25,6 +25,8 @@ Create a Valtix Service VPC using the GCP Terraform Provider. This module create
 * `vpc_id` - Same as Datapath VPC Id
 * `mgmt_security_group` - Network Tag that is used by the instances that wish to use the mgmt_ingress and mgmt_egress firewall rules
 * `datapath_security_group` - Network Tag that is used by the instances that wish to use the datapath_ingress and datapath_egress firewall rules
+* `mgmt_subnet_id` - Mgmt Subnet Id (self_link)
+* `datapath_subnet_id` - Datapath Subnet Id (self_link)
 
 ## Run as root module
 
